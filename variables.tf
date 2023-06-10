@@ -12,3 +12,8 @@ variable "GKE_NUM_NODES" {
   type        = number
   description = "Number of GKE Nodes"
 }
+
+variable "GOOGLE_LOCATION" {
+  type = string
+  description = "GCP Location"
+}
